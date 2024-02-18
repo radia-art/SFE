@@ -1,0 +1,208 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi there",
+          "Is anyone there?",
+          "Hey",
+          "Hola",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hello, thanks for asking",
+          "Good to see you",
+          "Hi there, how can I help?"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "salutations",
+        "patterns": [
+          "bonjour",
+          "bonsoir",
+          "salut",
+          "bonjour comment vas-tu?",
+          "ça va bien?",
+          "Allo?"
+        ],
+        "responses": [
+          "Bonjour comment je peux vous aider?",
+          "Bonjour comment je peux vous aider?"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "bye",
+        "patterns": [
+          "Au revoir",
+          "Bye bye",
+          "À tout à l’heure",
+          "Ravi de vous contactez",
+          "adieu",
+          "bientôt",
+          "Bonne journée!",
+          "À demain!",
+          "À plus tard"
+        ],
+        "responses": [
+          "Au revoir",
+          "Bye bye",
+          "Bye! retournez une autre fois",
+          "À tout à l’heure",
+          "adieu",
+          "à bientot"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Awesome, thanks",
+          "Thanks for helping me"
+        ],
+        "responses": [
+          "Happy to help!",
+          "Any time!",
+          "My pleasure"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "merci",
+        "patterns": [
+          "merci",
+          "merci beaucoup",
+          "merci pour votre aide",
+          "merci infiniment",
+          "merci à vous"
+        ],
+        "responses": [
+          "Heureux de vous aider",
+          "Any time!",
+          "ça fait plaisir",
+          "Avec plaisir"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "noanswer",
+        "patterns": [],
+        "responses": [
+          "Pardon, je n'ai pas compris",
+          "S'il vous plaît, donnez-moi plus d'informations",
+          "Pas sûre, j'ai compris"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "options",
+        "patterns": [
+          "How you could help me?",
+          "What you can do?",
+          "What help you provide?",
+          "How you can be helpful?",
+          "What support is offered"
+        ],
+        "responses": [
+          "I can guide you through information about ONESTCOM, its activities, and its objectives",
+          "Offering all information about ONESTCOM"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "options",
+        "patterns": [
+          "Comment vous pouvez m'aider?",
+          "Que vous pouvez faire?",
+          "Quel aide vous pouvez fournir?",
+          "Comment vous pouvez être aidant?",
+          "Quels services sont disponibles?"
+        ],
+        "responses": [
+          "Je peux vous donner des informations concernant l'entreprise ONESTCOM, ses activités, ses missions",
+          "Toutes les informations ayant relation avec l'entreprise ONESTCOM ainsi les contacts"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "définition de ONESTCOM",
+        "patterns": [
+          "c'est quoi onestcom?",
+          "la définition d'onestcom",
+          "quel est le rôle d'onestcom?",
+          "quels sont les principaux atouts d'onestcom?"
+        ],
+        "responses": [
+          "Créée il y a 10 ans, ONESTCOM est une agence de communication digitale qui se trouve à Marrakech et à Paris. Elle dispose d’une équipe de professionnels hautement qualifiés. Outre une expérience et une expertise certaines, les principaux atouts de cette équipe passionnée sont : la créativité et le sens du détail, la maîtrise des technologies adaptées à chacun des projets, le sens de l’écoute et de l’accompagnement"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "activités de onestcom",
+        "patterns": [
+          "quelles sont les activités de onestcom?",
+          "quelles activités est-ce que onestcom pratique?",
+          "je veux savoir les activités de onestcom?",
+          "les activités d'onestcom",
+          "quels sont les activités d'onestcom"
+        ],
+        "responses": [
+          "Les activités d'ONESTCOM sont les suivantes : Concevoir et développer des applications avec Java, Analyser les besoins des demandes métiers, Participer à la rédaction des spécifications fonctionnelles et techniques, création des sites web...",
+          "Les activités sont : Organiser et animer des ateliers projets, Assurer le support technique aux développeurs, création des sites web..."
+        ],
+        "context": ""
+      },
+      {
+        "tag": "les missions de onestcom",
+        "patterns": [
+          "quel sont les objectifs de onestcom ?",
+          "les objectifs de onestcom",
+          "onestcom a quelles missions?",
+          "à quoi sert onestcom"
+        ],
+        "responses": [
+          "Participer au développement et à l'amélioration front et back office de nos sites web, Participer à l’analyse des besoins métier et à la conception des solutions à mettre en œuvre, Prendre connaissance et appliquer les méthodologies de développement pour l’analyse, La conception et la mise en œuvre, excellente maîtrise des plateformes iOS & Android, Définir & exécuter les tests nécessaires à la validation des produits développés et les réaliser, Assurer le déploiement des applicatifs produits & assurer le support post-golive"
+        ],
+        "context": "objectifs"
+      },
+      {
+        "tag": "objectifs",
+        "patterns": [],
+        "responses": [
+          "Vous pouvez consulter le site officiel onestcom.com pour plusieurs objectifs"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "les contacts pour Marrakech",
+        "patterns": [
+          "contact onestcom Marrakech",
+          "comment je peux avoir le contact de onestcom Marrakech ?",
+          "quel est le téléphone de onestcom Marrakech?",
+          "comment je peux contacter onestcom Marrakech?"
+        ],
+        "responses": [
+          "Pour contacter onestcom Marrakech: +212 5 24 446 213, contact@onestcom.com, Rue Draa, Immeuble AL Andalouss 2.A gueliz-Marrakech"
+        ],
+        "context": ""
+      },
+      {
+        "tag": "les contacts pour Paris",
+        "patterns": [
+          "contact onestcom Paris",
+          "comment je peux avoir le contact de onestcom Paris?",
+          "quel est le téléphone de onestcom Paris?",
+          "comment je peux contacter onestcom Paris?"
+        ],
+        "responses": [
+          "Pour contacter onestcom Paris: +33 5 186 954 428, contact@onestcom.com, Rue de Bassano 75116-Paris"
+        ],
+        "context": ""
+      }
+    ]
+}  
